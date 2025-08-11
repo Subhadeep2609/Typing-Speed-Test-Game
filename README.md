@@ -2,6 +2,7 @@
 A fun and interactive Typing Speed Test Game built with HTML, CSS, and JavaScript. Test your typing skills, improve your speed, and track your accuracy — all in real-time!
 
 🚀 Features
+
 Random Paragraphs: Each round loads a new random text for practice.
 
 Live Stats Tracking:
@@ -29,6 +30,7 @@ Responsive Design: Fully optimized for desktop, tablet, and mobile.
 Keyboard Friendly: Start typing immediately; no clicks required.
 
 🛠️ Technologies Used
+
 HTML5 for structure
 
 CSS3 for styling and responsiveness
@@ -36,10 +38,6 @@ CSS3 for styling and responsiveness
 Vanilla JavaScript for logic and real-time updates
 
 
-🎯 How to Play
-When the game starts, a random paragraph will appear.
-
-Start typing — the timer will begin automatically.
 
 Correct letters will turn green, mistakes in red.
 
