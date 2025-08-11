@@ -1,0 +1,196 @@
+/* ---------- Global Styles ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+/* ---------- Game Title ---------- */
+.game-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- Wrapper ---------- */
+.wrapper {
+    width: 770px;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.wrapper:hover {
+    transform: translateY(-5px);
+}
+
+/* ---------- Content Box ---------- */
+.wrapper .content-box {
+    padding: 13px 20px 0;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background: #fafafa;
+}
+
+.wrapper .input-field {
+    padding: 13px 20px 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -99;
+}
+
+/* ---------- Stats Section ---------- */
+.content-box .content {
+    margin-top: 17px;
+    display: flex;
+    padding: 12px 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e0e0e0;
+}
+
+.content-box .result-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 140px);
+    gap: 15px;
+}
+
+.result-details li {
+    display: flex;
+    height: 20px;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+    color: #555;
+}
+
+/* ---------- Button ---------- */
+.content button {
+    width: 120px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.content button:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    box-shadow: 0 5px 15px rgba(255, 118, 136, 0.4);
+}
+
+.content button:active {
+    transform: scale(0.97);
+}
+
+/* ---------- Typing Text ---------- */
+.typing-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.typing-text p span {
+    position: relative;
+}
+
+.typing-text p span.active {
+    color: #00b894;
+    border-bottom: 2px solid #00b894;
+}
+
+.typing-text p span.correct {
+    color: #27ae60;
+}
+
+.typing-text p span.incorrect {
+    color: #e74c3c;
+    background: rgba(231, 76, 60, 0.1);
+    border-radius: 4px;
+}
+
+/* ---------- Selection ---------- */
+::selection {
+    color: #fff;
+    background: #00b894;
+}
+
+/* ---------- Responsiveness ---------- */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+        padding: 25px;
+    }
+    .content-box .result-details {
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+    }
+    .content button {
+        width: 100px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px 5px;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+    .content-box {
+        padding: 10px 15px 0;
+    }
+    .content-box .result-details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .content button {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 15px;
+    }
+    .typing-text p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .result-details p,
+    .result-details span {
+        font-size: 14px;
+    }
+}
