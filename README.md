@@ -3,39 +3,39 @@ A fun and interactive Typing Speed Test Game built with HTML, CSS, and JavaScrip
 
 🚀 Features
 
-Random Paragraphs: Each round loads a new random text for practice.
+* Random Paragraphs: Each round loads a new random text for practice.
 
-Live Stats Tracking:
+* Live Stats Tracking:
 
-WPM (Words Per Minute)
+  * WPM (Words Per Minute)
 
-CPM (Characters Per Minute)
+  * CPM (Characters Per Minute)
 
-Mistakes counter
+  * Mistakes counter
 
-Countdown Timer
+  * Countdown Timer
 
-Real-time Highlighting:
+* Real-time Highlighting:
 
-Current character highlighted in orange
+  * Current character highlighted in orange
 
-Correct characters turn green
+  * Correct characters turn green
 
-Incorrect characters turn red with a pink background
+  * Incorrect characters turn red with a pink background
 
-Restart Button: Instantly start a new round.
+* Restart Button: Instantly start a new round.
 
-Responsive Design: Fully optimized for desktop, tablet, and mobile.
+* Responsive Design: Fully optimized for desktop, tablet, and mobile.
 
-Keyboard Friendly: Start typing immediately; no clicks required.
+* Keyboard Friendly: Start typing immediately; no clicks required.
 
 🛠️ Technologies Used
 
-HTML5 for structure
+* HTML5 for structure
 
-CSS3 for styling and responsiveness
+* CSS3 for styling and responsiveness
 
-Vanilla JavaScript for logic and real-time updates
+* Vanilla JavaScript for logic and real-time updates
 
 
 
