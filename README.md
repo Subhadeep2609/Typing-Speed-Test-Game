@@ -37,10 +37,14 @@ A fun and interactive Typing Speed Test Game built with HTML, CSS, and JavaScrip
 
 * Vanilla JavaScript for logic and real-time updates
 
+🎯 How to Play
 
+* When the game starts, a random paragraph will appear.
 
-Correct letters will turn green, mistakes in red.
+* Start typing — the timer will begin automatically.
 
-Try to type as many correct words as possible before the timer ends.
+* Correct letters will turn green, mistakes in red.
 
-Click "Try Again" to reset the game and test yourself again!
+* Try to type as many correct words as possible before the timer ends.
+
+* Click "Try Again" to reset the game and test yourself again!
